@@ -33,7 +33,7 @@ namespace valleyRemind
             txtPassword.PasswordChar = '*';
             user = txtLogin.Text;
             password = txtPassword.Text;
-            if ((user == "v") && (password == "123"))
+            if ((user == "*****") && (password == "*********"))
             {
                 this.Hide();
                 Event_View eventView = new Event_View();
